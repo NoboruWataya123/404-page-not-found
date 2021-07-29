@@ -1,0 +1,53 @@
+@media (max-width: 765px){
+
+.btn{
+    cursor: pointer;
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+margin-left: 2rem;
+margin-top: 3rem;
+text-align: center;
+background: #333333;
+color: white;
+width: 216px;
+height: 68px;
+}
+}
+
+@media (min-width: 765px){
+.btn{
+    cursor: pointer;
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+color: #FFFFFF;
+box-shadow: black 0px 10px 10px 2px;
+width: 216px;
+height: 68px;
+
+/* Gray 1 */
+
+background: #333333;
+}
+}
+
+.btn:hover{
+    background: #413e3e;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
