@@ -1,7 +1,7 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { withLayout } from "../Layout/Layout";
-import styles from "../styles/home.module.css";
+import styles from '../styles/Home.module.css';
 import Image from "next/image";
 import Button from "../components/Button/Button";
 
